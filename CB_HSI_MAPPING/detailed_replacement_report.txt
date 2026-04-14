@@ -1,0 +1,69 @@
+DETAILED REPLACEMENT REPORT
+====================================================================================================
+
+Total replaced rows: 5
+Total unreplaced rows: 0
+
+REPLACED ROWS:
+----------------------------------------------------------------------------------------------------
+
+Row 14: Driver Request Braking Torque
+  S_DRIVER_REQUEST_BRAKE_TORQUE_FRONT
+  S_DRIVER_REQUEST_BRAKE_TORQUE_REAR
+
+Row 17: Actual residual elctric brake torque of each wheels
+  S_DRIVE_ACTUAL_WHEEL_TORQUE_FRONT_AXLE
+  S_DRIVE_ACTUAL_WHEEL_TORQUE_REAR_AXLE
+  S_DRIVE_ACTUAL_WHEEL_TORQUE_FL
+  S_DRIVE_ACTUAL_WHEEL_TORQUE_FR
+  S_DRIVE_ACTUAL_WHEEL_TORQUE_RL
+  S_DRIVE_ACTUAL_WHEEL_TORQUE_RR
+
+Row 18: Determine Motor Target Control Mode
+  Table style='border-collapse:separate;border-spacing:1px;border:0px;background:rgb(229, 229, 229);max-width:100%;color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;' dataStyle='color:rgb(30, 30, 30);text-decoration:none;border:0px;padding:12px 5px 11px;background:white;vertical-align:top;'_x000D_
+_x000D_
+|(width:36.2522%)signal name_x000D_
+|(width:16.4623%)0x0_x000D_
+|(width:19.7898%)0x1_x000D_
+|(width:27.4956%)0x2_x000D_
+_x000D_
+|(width:36.2522%)%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)~{FrntAxleTarDrvModeRqst~
+  S_SAFE_DRIVE_TARGET_CONTROL_MODE_Front\Rear\FL\FR\RL\RR
+  TarDrvModeFrntLe~
+  TarDrvModeFrntRi~
+  TarDrvModeReLe~
+  TarDrvModeReRi~
+
+Row 19: Determine Motor Target Control Mode 2 x Motors
+  Table style='border-collapse:collapse;border-spacing:1px;border:0px;background:rgb(229, 229, 229);empty-cells:show;max-width:100%;color:rgb(65, 65, 65);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;' dataStyle='color:rgb(30, 30, 30);text-decoration:none;border:1px dotted rgb(209, 209, 209);padding:12px 5px 11px;user-select:text;min-width:5px;background:white;vertical-align:top;'_x000D_
+_x000D_
+|(width:37.6699%)Signals_x000D_
+|(width:17.4757%)0x0_x000D_
+|(width:19.4175%)0x1_x000D_
+|(width:25.4369%)0x2_x000D_
+_x000D_
+|(width:37.6699%)~{FrntAxleTarDrvModeRqst~
+  S_SAFE_DRIVE_TARGET_CONTROL_MODE_Front\Rear\FL\FR\RL\RR
+
+Row 36: Determine EACS Control Request
+  AirSuspTarHei~_FL~
+  AirSuspTarHei~_FR~
+  AirSuspTarHei~_RL~
+  AirSuspTarHei~_RR~
+  S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_FRONT_LEFT
+  S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_FRONT_RIGHT
+  S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_REAR_LEFT
+  S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_REAR_RIGHT
+  AirSpringHeiReq~_FL~
+  AirSpringHeiReq~_FR~
+  AirSpringHeiReq~_RL~
+  AirSpringHeiReq~_RR~
+  S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_FRONT_LEFT
+  S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_FRONT_RIGHT
+  S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_REAR_LEFT
+  S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_REAR_RIGHT
+
+
+UNREPLACED ROWS:
+----------------------------------------------------------------------------------------------------
+

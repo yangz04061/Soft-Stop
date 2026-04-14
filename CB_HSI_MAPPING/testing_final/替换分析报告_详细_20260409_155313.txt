@@ -1,0 +1,237 @@
+====================================================================================================
+信号替换分析报告 (改进版)
+生成时间: 2026-04-09 15:53:13
+====================================================================================================
+
+源文件: cubiX-SGMW - System Requirements.xlsx
+映射文件: SGMW_external_interface_to_Kun_20260407.xlsx
+备份文件: cubiX-SGMW - System Requirements_backup_20260409_155312.xlsx
+
+建立的映射关系总数: 415
+成功替换数: 143
+未找到映射数: 18
+
+====================================================================================================
+成功替换的详情 (按Sheet分组):
+====================================================================================================
+
+Sheet: Export (143 项)
+----------------------------------------------------------------------------------------------------
+  行     4, 列    10: CSTFctSwtSts~                                                -> S_CUBIX_MODE_CST_ENA_FLG
+  行     4, 列    10: ABSAtv~_FD~                                                  -> S_ABS_INTERVENTION_STATUS
+  行     4, 列    10: VSEAtv~_FD~                                                  -> S_ESC_INTERVENTION_STATUS
+  行     4, 列    10: VSEArmAtv~                                                   -> S_ESC_STATUS_ARMSTATUS
+  行     4, 列    10: TCSysAtv~_FD~                                                -> S_TC_INTERVENTION_STATUS
+  行     4, 列    10: PrDrvMtrTorqMinLitVal~_FD~                                   -> S_MOTORFRONTLEFT_MIN_TORQUE
+  行     4, 列    10: MCU2MtrTorqMinLitVal~_FD~                                    -> S_MOTORFRONTRIGHT_MIN_TORQUE
+  行     4, 列    10: MCU3MtrTorqMinLitVal~_FD~                                    -> S_MOTORREARLEFT_MIN_TORQUE
+  行     4, 列    10: MCU4MtrTorqMinLitVal~_FD~                                    -> S_MOTORREARRIGHT_MIN_TORQUE
+  行     4, 列    10: VCUADASActvSts~_1~                                           -> S_ADAS_ACTIVE_STATE
+  行     4, 列    10: BrakPedalDisp~                                               -> S_BRAKE_PEDAL_POSITION
+  行     4, 列    10: BrakPedalDisp~                                               -> S_BRAKE_PEDAL_POSITION
+  行     4, 列    10: VehSpdAvgDrvn~_ABS~                                          -> S_VEHICLE_SPEED
+  行     4, 列    10: ADASLongAcc~                                                 -> S_ACTUAL_LONGITUDINAL_ACCELERATION
+  行     4, 列    10: ADASLatAccel~                                                -> S_ACTUAL_LATERAL_ACCELERATION
+  行     4, 列    10: StrWhAng~_1~                                                 -> S_STEERING_WHEEL_ANGLE_ANGLE_BACKUP
+  行     5, 列    10: ABSAtv~_FD~                                                  -> S_ABS_INTERVENTION_STATUS
+  行     5, 列    10: VSEAtv~_FD~                                                  -> S_ESC_INTERVENTION_STATUS
+  行     5, 列    10: VSEArmAtv~                                                   -> S_ESC_STATUS_ARMSTATUS
+  行     5, 列    10: TCSysAtv~_FD~                                                -> S_TC_INTERVENTION_STATUS
+  行     5, 列    10: BrakPedalDisp~                                               -> S_BRAKE_PEDAL_POSITION
+  行     5, 列    10: PrDrvMtrTorqMinLitVal~_FD~                                   -> S_MOTORFRONTLEFT_MIN_TORQUE
+  行     5, 列    10: MCU2MtrTorqMinLitVal~_FD~                                    -> S_MOTORFRONTRIGHT_MIN_TORQUE
+  行     5, 列    10: MCU3MtrTorqMinLitVal~_FD~                                    -> S_MOTORREARLEFT_MIN_TORQUE
+  行     5, 列    10: MCU4MtrTorqMinLitVal~_FD~                                    -> S_MOTORREARRIGHT_MIN_TORQUE
+  行     5, 列    10: VehSpdAvgDrvn~_ABS~                                          -> S_VEHICLE_SPEED
+  行     5, 列    10: BrakPedalDisp~                                               -> S_BRAKE_PEDAL_POSITION
+  行     5, 列    10: VCUADASActvSts~_1~                                           -> S_ADAS_ACTIVE_STATE
+  行     6, 列    10: CSTFctSwtSts~                                                -> S_CUBIX_MODE_CST_ENA_FLG
+  行     7, 列    10: VehRdySts~                                                   -> S_VEHICLE_READY
+  行     7, 列    10: CSTFctSwtSts~                                                -> S_CUBIX_MODE_CST_ENA_FLG
+  行     7, 列    10: VehRdySts~                                                   -> S_VEHICLE_READY
+  行     8, 列    10: CSTFctSwtSts~                                                -> S_CUBIX_MODE_CST_ENA_FLG
+  行    10, 列    10: CSTFctSwtSts~                                                -> S_CUBIX_MODE_CST_ENA_FLG
+  行    15, 列    10: DrRqdFrntShftBrkTorq~                                        -> S_DRIVER_REQUEST_BRAKE_TORQUE_FRONT
+  行    15, 列    10: DrRqdRearShftBrkTorq~                                        -> S_DRIVER_REQUEST_BRAKE_TORQUE_REAR
+  行    16, 列    10: TMTorqRqst~_FD~                                              -> S_AWD_DRIVER_REQUEST_VCUACTUAL_TORQUE_REQUEST_FRONT_LEFT
+  行    16, 列    10: MCU2TorqRqst~_FD~                                            -> S_AWD_DRIVER_REQUEST_VCUACTUAL_TORQUE_REQUEST_FRONT_RIGHT
+  行    16, 列    10: MCU3TorqRqst~_FD~                                            -> S_AWD_DRIVER_REQUEST_VCUACTUAL_TORQUE_REQUEST_REAR_LEFT
+  行    16, 列    10: MCU4TorqRqst~_FD~                                            -> S_AWD_DRIVER_REQUEST_VCUACTUAL_TORQUE_REQUEST_REAR_RIGHT
+  行    17, 列    10: WhlActBrkTq~_FL~                                             -> S_BRAKE_ACTUAL_WHEEL_TORQUE_FL
+  行    17, 列    10: WhlActBrkTq~_FR~                                             -> S_BRAKE_ACTUAL_WHEEL_TORQUE_FR
+  行    17, 列    10: WhlActBrkTq~_RL~                                             -> S_BRAKE_ACTUAL_WHEEL_TORQUE_RL
+  行    17, 列    10: WhlActBrkTq~_RR~                                             -> S_BRAKE_ACTUAL_WHEEL_TORQUE_RR
+  行    18, 列    10: PrDrvShftTorq~_FD~                                           -> S_DRIVE_ACTUAL_WHEEL_TORQUE_FRONT_AXLE
+  行    18, 列    10: ThScdDrvShftTorq~_FD~                                        -> S_DRIVE_ACTUAL_WHEEL_TORQUE_REAR_AXLE
+  行    18, 列    10: TMActTorq~                                                   -> S_DRIVE_ACTUAL_WHEEL_TORQUE_FL
+  行    18, 列    10: MCU2TMActTorq~                                               -> S_DRIVE_ACTUAL_WHEEL_TORQUE_FR
+  行    18, 列    10: MCU3TMActTorq~                                               -> S_DRIVE_ACTUAL_WHEEL_TORQUE_RL
+  行    18, 列    10: MCU4TMActTorq~                                               -> S_DRIVE_ACTUAL_WHEEL_TORQUE_RR
+  行    19, 列    10: ReAxleTarDrvModeRqst~                                        -> S_SAFE_DRIVE_TARGET_CONTROL_MODE_Front\Rear\FL\FR\RL\RR
+  行    19, 列    10: VMCMtCtrlModeFL~_1st~                                        -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_FL
+  行    19, 列    10: VMCMtCtrlModeFR~_2nd~                                        -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_FR
+  行    19, 列    10: VMCMtCtrlModeRL~_3rd~                                        -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_RL
+  行    19, 列    10: VMCMtCtrlModeRR~_4th~                                        -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_RR
+  行    20, 列    10: ReAxleTarDrvModeRqst~                                        -> S_SAFE_DRIVE_TARGET_CONTROL_MODE_Front\Rear\FL\FR\RL\RR
+  行    22, 列    10: VMCTarDrvTqFrnt~                                             -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FRONT_AXLE
+  行    22, 列    10: VMCTarDrvTqRe~                                               -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_REAR_AXLE
+  行    22, 列    10: VMCTarDrvTqFL~_1st ~                                         -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FL
+  行    22, 列    10: VMCTarDrvTqFR~_2nd~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FR
+  行    22, 列    10: VMCTarDrvTqRL~_3rd~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_RL
+  行    22, 列    10: VMCTarDrvTqRR~_4th~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_RR
+  行    26, 列     2: VMCTarDrvTqFrnt                                              -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FRONT_AXLE
+  行    26, 列    10: FrntAxleTarDrvModeRqst~                                      -> S_SAFE_DRIVE_TARGET_AXLE_FRONT
+  行    26, 列    10: VMCTarDrvTqFrnt~                                             -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FRONT_AXLE
+  行    26, 列    10: VMCTarDrvTqFrnt~                                             -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FRONT_AXLE
+  行    26, 列    10: VMCTarDrvTqFrnt~                                             -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FRONT_AXLE
+  行    27, 列     2: VMCTarDrvTqRe                                                -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_REAR_AXLE
+  行    27, 列    10: ReAxleTarDrvModeRqst~                                        -> S_SAFE_DRIVE_TARGET_CONTROL_MODE_Front\Rear\FL\FR\RL\RR
+  行    27, 列    10: VMCTarDrvTqRe~                                               -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_REAR_AXLE
+  行    27, 列    10: VMCTarDrvTqRe~                                               -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_REAR_AXLE
+  行    29, 列    10: VMCMtCtrlModeFL~_1st ~                                       -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_FL
+  行    29, 列    10: VMCMtCtrlModeFR~_2nd~                                        -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_FR
+  行    29, 列    10: VMCMtCtrlModeRL~_3rd~                                        -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_RL
+  行    29, 列    10: VMCMtCtrlModeRR~_4th~                                        -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_RR
+  行    29, 列    10: VMCTarDrvTqFL~_1st~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FL
+  行    29, 列    10: VMCTarDrvTqFR~_2nd~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FR
+  行    29, 列    10: VMCTarDrvTqRL~_3rd~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_RL
+  行    29, 列    10: VMCTarDrvTqRR~_4th~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_RR
+  行    29, 列    10: VMCTarDrvTqFL~_1st~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FL
+  行    29, 列    10: VMCTarDrvTqFR~_2nd~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FR
+  行    29, 列    10: VMCTarDrvTqRL~_3rd~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_RL
+  行    29, 列    10: VMCTarDrvTqRR~_4th~                                          -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_RR
+  行    32, 列     2: VMCTarSpdFrnt                                                -> S_SAFE_TARGET_MOTOR_SPEED_FRONT_AXLE
+  行    32, 列    10: FrntAxleTarDrvModeRqst~                                      -> S_SAFE_DRIVE_TARGET_AXLE_FRONT
+  行    32, 列    10: VMCTarSpdFrnt~                                               -> S_SAFE_TARGET_MOTOR_SPEED_FRONT_AXLE
+  行    32, 列    10: VMCTarSpdFrnt~                                               -> S_SAFE_TARGET_MOTOR_SPEED_FRONT_AXLE
+  行    32, 列    10: VMCTarSpdFrnt~                                               -> S_SAFE_TARGET_MOTOR_SPEED_FRONT_AXLE
+  行    33, 列     2: VMCTarSpdRe                                                  -> S_SAFE_TARGET_MOTOR_SPEED_REAR_AXLE
+  行    33, 列    10: ReAxleTarDrvModeRqst~                                        -> S_SAFE_DRIVE_TARGET_CONTROL_MODE_Front\Rear\FL\FR\RL\RR
+  行    33, 列    10: VMCTarSpdRe~                                                 -> S_SAFE_TARGET_MOTOR_SPEED_REAR_AXLE
+  行    33, 列    10: VMCTarSpdRe~                                                 -> S_SAFE_TARGET_MOTOR_SPEED_REAR_AXLE
+  行    35, 列     2: VMCTarSpdRe                                                  -> S_SAFE_TARGET_MOTOR_SPEED_REAR_AXLE
+  行    35, 列    10: VMCMtCtrlModeFL~_1st ~                                       -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_FL
+  行    35, 列    10: VMCMtCtrlModeFR~_2nd~                                        -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_FR
+  行    35, 列    10: VMCMtCtrlModeRL~_3rd~                                        -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_RL
+  行    35, 列    10: VMCMtCtrlModeRR~_4th ~                                       -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_RR
+  行    35, 列    10: VMCTarSpdFL~_1st~                                            -> S_SAFE_TARGET_MOTOR_SPEED_FL
+  行    35, 列    10: VMCTarSpdFR~_2nd~                                            -> S_SAFE_TARGET_MOTOR_SPEED_FR
+  行    35, 列    10: VMCTarSpdRL~_3rd~                                            -> S_SAFE_TARGET_MOTOR_SPEED_RL
+  行    35, 列    10: VMCTarSpdRR~_4th~                                            -> S_SAFE_TARGET_MOTOR_SPEED_RR
+  行    35, 列    10: VMCTarSpdFL~_1st~                                            -> S_SAFE_TARGET_MOTOR_SPEED_FL
+  行    35, 列    10: VMCTarSpdFR~_2nd~                                            -> S_SAFE_TARGET_MOTOR_SPEED_FR
+  行    35, 列    10: VMCTarSpdRL~_3rd~                                            -> S_SAFE_TARGET_MOTOR_SPEED_RL
+  行    35, 列    10: VMCTarSpdRR~_4th~                                            -> S_SAFE_TARGET_MOTOR_SPEED_RR
+  行    36, 列    10: CdcActvRqst~                                                 -> S_CDCREQUEST_ACTIVATION_MON
+  行    36, 列    10: CdcCurrentMaxRqst~_FL~                                       -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_FLMAX
+  行    36, 列    10: CdcCurrentMaxRqst~_FR~                                       -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_FRMAX
+  行    36, 列    10: CdcCurrentMaxRqst~_RL~                                       -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_RLMAX
+  行    36, 列    10: CdcCurrentMaxRqst~_RR~                                       -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_RRMAX
+  行    36, 列    10: CdcCurrentMinRqst~_FL~                                       -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_FLMIN
+  行    36, 列    10: CdcCurrentMinRqst~_FR~                                       -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_FRMIN
+  行    36, 列    10: CdcCurrentMinRqst~_RL~                                       -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_RLMIN
+  行    36, 列    10: CdcCurrentMinRqst~_RR~                                       -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_RRMIN
+  行    37, 列    10: AirSuspTarHei~_FL~                                           -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_FRONT_LEFT
+  行    37, 列    10: AirSuspTarHei~_FR~                                           -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_FRONT_RIGHT
+  行    37, 列    10: AirSuspTarHei~_RL~                                           -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_REAR_LEFT
+  行    37, 列    10: AirSuspTarHei~_RR~                                           -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_REAR_RIGHT
+  行    37, 列    10: TarStfnLvlFrntLe~                                            -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_FRONT_LEFT
+  行    37, 列    10: TarStfnLvlFrntRi~                                            -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_FRONT_RIGHT
+  行    37, 列    10: TarStfnLvlReLe~                                              -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_REAR_LEFT
+  行    37, 列    10: TarStfnLvlReRi~                                              -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_REAR_RIGHT
+  行    37, 列    10: AirSpringHeiReq~_FL~                                         -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_CONTROL_REQUEST_FRONT_LEFT
+  行    37, 列    10: AirSpringHeiReq~_FR~                                         -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_CONTROL_REQUEST_FRONT_RIGHT
+  行    37, 列    10: AirSpringHeiReq~_RL~                                         -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_CONTROL_REQUEST_REAR_LEFT
+  行    37, 列    10: AirSpringHeiReq~_RR~                                         -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_CONTROL_REQUEST_REAR_RIGHT
+  行    37, 列    10: TarStfnReqFrntLe~                                            -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_FRONT_LEFT
+  行    37, 列    10: TarStfnReqFrntRi~                                            -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_FRONT_RIGHT
+  行    37, 列    10: TarStfnReqReLe~                                              -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_REAR_LEFT
+  行    37, 列    10: TarStfnReqReRi~                                              -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_REAR_RIGHT
+  行    38, 列    10: ActvSuspTarForce~_FL~                                        -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_TARGET_ASFORCE_FL
+  行    38, 列    10: ActvSuspTarForce~_FR~                                        -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_TARGET_ASFORCE_FR
+  行    38, 列    10: ActvSuspTarForce~_RL~                                        -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_TARGET_ASFORCE_RL
+  行    38, 列    10: ActvSuspTarForce~_RR~                                        -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_TARGET_ASFORCE_RR
+  行    38, 列    10: ActvSuspActvRqst~                                            -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_CONTROL_MODE
+  行    42, 列    10: VMCSoftStopSts~                                              -> S_CUBIX_STATE_SAFE_VMCSOFT_STOP_FLG
+  行    42, 列    10: VMCSoftStopSts ~                                             -> S_CUBIX_STATE_SAFE_VMCSOFT_STOP_FLG
+  行    42, 列    10: CSTFctSwtSts ~                                               -> S_CUBIX_MODE_CST_ENA_FLG
+  行    42, 列    10: VMCSoftStopSts~                                              -> S_CUBIX_STATE_SAFE_VMCSOFT_STOP_FLG
+  行    42, 列    10: CSTFctSwtSts~                                                -> S_CUBIX_MODE_CST_ENA_FLG
+  行    43, 列    10: VMCSoftStopSts~                                              -> S_CUBIX_STATE_SAFE_VMCSOFT_STOP_FLG
+  行    43, 列    10: CSTFctSwtSts~                                                -> S_CUBIX_MODE_CST_ENA_FLG
+  行    43, 列    10: VMCSoftStopSts~                                              -> S_CUBIX_STATE_SAFE_VMCSOFT_STOP_FLG
+
+====================================================================================================
+未找到映射的详情 (按Sheet分组):
+====================================================================================================
+
+Sheet: Export (18 项)
+----------------------------------------------------------------------------------------------------
+  信号 '%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)VMCMtCtrlModeFR~_2nd%!~' 出现 1 次
+    - 行    21, 列    10
+  信号 '%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)VMCMtCtrlModeRL~_3rd%!~' 出现 1 次
+    - 行    21, 列    10
+  信号 '%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)VMCMtCtrlModeRR~_4th%!~' 出现 1 次
+    - 行    21, 列    10
+  信号 'DragTorgCntAtv~_FD~' 出现 4 次
+    - 行     4, 列    10
+    - 行     4, 列    10
+    - 行     5, 列    10
+    - 行     5, 列    10
+  信号 'Image wiki='[CB:/displayDocument/1770624901073.png?task_id=17986912&artifact_id=51749183&version=1&history=false&notification=false]' alt='CB:/displayDocument/1770624901073.png?task_id=17986912&artifact_id=51749183&version=1&history=false&notification=false' style='border: 0px; max-width: 100%; object-fit: contain; cursor: pointer; padding: 0px 1px; color: rgb(65, 65, 65); font-family: sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'' 出现 1 次
+    - 行     3, 列    10
+  信号 'Image wiki='[CB:/displayDocument/1773898412607.png?task_id=18015088&artifact_id=52859419&version=1&history=false&notification=false]' alt='CB:/displayDocument/1773898412607.png?task_id=18015088&artifact_id=52859419&version=1&history=false&notification=false' style='border: 0px; max-width: 100%; object-fit: contain; cursor: pointer; padding: 0px 1px;'' 出现 4 次
+    - 行    26, 列    10
+    - 行    26, 列    10
+    - 行    32, 列    10
+    - 行    32, 列    10
+  信号 'Table dataStyle='color:rgb(30, 30, 30);text-decoration:none;border:0px;padding:12px 5px 11px;background:white;vertical-align:top;'_x000D_
+_x000D_
+|(width:36.2522%)signal name_x000D_
+|(width:16.4623%)0x0_x000D_
+|(width:19.7898%)0x1_x000D_
+|(width:27.4956%)0x2_x000D_
+_x000D_
+|(width:36.2522%)~{FrntAxleTarDrvModeRqst~' 出现 2 次
+    - 行    19, 列    10
+    - 行    19, 列    10
+  信号 'Table style='border-collapse:collapse;border-spacing:1px;border:0px;background:rgb(229, 229, 229);empty-cells:show;max-width:100%;color:rgb(65, 65, 65);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;' dataStyle='color:rgb(30, 30, 30);text-decoration:none;border:1px dotted rgb(209, 209, 209);padding:12px 5px 11px;user-select:text;min-width:5px;background:white;vertical-align:top;'_x000D_
+_x000D_
+|(width:37.6699%)Signals_x000D_
+|(width:17.4757%)0x0_x000D_
+|(width:19.4175%)0x1_x000D_
+|(width:25.4369%)0x2_x000D_
+_x000D_
+|(width:37.6699%)~{FrntAxleTarDrvModeRqst~' 出现 2 次
+    - 行    20, 列    10
+    - 行    20, 列    10
+  信号 'Table style='border-collapse:collapse;border-spacing:1px;border:0px;background:rgb(229, 229, 229);empty-cells:show;max-width:100%;color:rgb(65, 65, 65);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;'_x000D_
+_x000D_
+|signals_x000D_
+|0x0_x000D_
+|0x1_x000D_
+|0x2_x000D_
+_x000D_
+|~{%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)VMCMtCtrlModeFL~_1st%!~' 出现 1 次
+    - 行    21, 列    10
+  信号 'VMC System~' 出现 1 次
+    - 行    45, 列    10
+
+====================================================================================================
+原因分析:
+====================================================================================================
+
+未找到映射的原因分析:
+  1. 包含'~'符号的信号: 13 项
+     原因: Excel可能含有特殊编码或格式化标记
+
+  2. 包含HTML/Table标记的内容: 5 项
+     原因: 单元格中可能包含表格或富文本内容
+
+  3. 包含Image标记的内容: 5 项
+     原因: 单元格中可能包含图像或特殊对象
+
+  4. 其他原因:
+     - 映射文件中可能不存在该信号
+     - 信号名拼写不匹配 (空格、大小写等)
+

@@ -1,0 +1,770 @@
+================================================================================
+信号替换分析报告
+生成时间: 2026-04-09 15:42:49
+================================================================================
+
+源文件: cubiX-SGMW - System Requirements.xlsx
+映射文件: SGMW_external_interface_to_Kun_20260407.xlsx
+备份文件: cubiX-SGMW - System Requirements_backup_20260409_154248.xlsx
+
+映射关系总数: 415
+成功替换数: 5
+未找到映射数: 150
+
+================================================================================
+映射关系详情:
+================================================================================
+ABSAtv_FD                                          -> S_ABS_INTERVENTION_STATUS
+ABSIO                                              -> S_ESC_STATUS_ABSFAULT
+ADASAccHeave                                       -> S_INERTIAL_SENSOR_VERTICAL_ACCELERATION
+ADASAccHeaveV                                      -> S_ACT_VERTACC_VALID
+ADASIMUPitch                                       -> S_INERTIAL_SENSOR_PITCH_RATE
+ADASIMURoll                                        -> S_INERTIAL_SENSOR_ROLL_RATE
+ADASIMUYaw                                         -> S_ACTUAL_YAW_RATE
+ADASLatAccel                                       -> S_ACTUAL_LATERAL_ACCELERATION
+ADASLatAccelV                                      -> S_ACT_LATACC_VALID
+ADASLongAcc                                        -> S_ACTUAL_LONGITUDINAL_ACCELERATION
+ADASLongAccV                                       -> S_ACT_LONGACC_VALID
+ADASPitchRateV                                     -> S_ACT_PITCHRATE_VALID
+ADASRollRateV                                      -> S_ACT_ROLLRATE_VALID
+ADASYawRateV                                       -> S_ACT_YAWRATE_VALID
+AccActPosV_FD                                      -> S_ACT_ACCRPEDL_VALID
+AccActPos_FD                                       -> S_ACCELERATION_PEDAL_POSITION
+ActSuspActrSts                                     -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ACTIVE_SUSPENSION_ACTUATOR_STS_FB
+ActSuspActulDampForce_FL                           -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ACTUAL_DAMPING_FORCE_FL
+ActSuspActulDampForce_FR                           -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ACTUAL_DAMPING_FORCE_FR
+ActSuspActulDampForce_RL                           -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ACTUAL_DAMPING_FORCE_RL
+ActSuspActulDampForce_RR                           -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ACTUAL_DAMPING_FORCE_RR
+ActSuspCtrlOrigTargtDampForce_FL                   -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ORIG_TARGET_DAMPING_FORCE_FL
+ActSuspCtrlOrigTargtDampForce_FR                   -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ORIG_TARGET_DAMPING_FORCE_FR
+ActSuspCtrlOrigTargtDampForce_RL                   -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ORIG_TARGET_DAMPING_FORCE_RL
+ActSuspCtrlOrigTargtDampForce_RR                   -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ORIG_TARGET_DAMPING_FORCE_RR
+ActvSuspActvRqst                                   -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_CONTROL_MODE
+ActvSuspTarForce_FL                                -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_TARGET_ASFORCE_FL
+ActvSuspTarForce_FR                                -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_TARGET_ASFORCE_FR
+ActvSuspTarForce_RL                                -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_TARGET_ASFORCE_RL
+ActvSuspTarForce_RR                                -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_TARGET_ASFORCE_RR
+AirSpringActrStsFb                                 -> S_AIRSPRING_ACT_STATE
+AirSpringHeiReq_FL                                 -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_CONTROL_REQUEST_FRONT_LEFT
+AirSpringHeiReq_FR                                 -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_CONTROL_REQUEST_FRONT_RIGHT
+AirSpringHeiReq_RL                                 -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_CONTROL_REQUEST_REAR_LEFT
+AirSpringHeiReq_RR                                 -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_CONTROL_REQUEST_REAR_RIGHT
+AirSuspActvRqst                                    -> S_SAFE_OUTPUT_AIR_SPRING_AIR_SPRING_ACTVN_REQ
+AirSuspTarHei_FL                                   -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_FRONT_LEFT
+AirSuspTarHei_FR                                   -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_FRONT_RIGHT
+AirSuspTarHei_RL                                   -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_REAR_LEFT
+AirSuspTarHei_RR                                   -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_HEIGHT_REAR_RIGHT
+AntiRollTotActTq                                   -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ACTUAL_TOTAL_TORQUE
+AntiRollTotActTqV                                  -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ACTUAL_TOTAL_TORQUE_VALID
+AntiRollTqDiffLim                                  -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ANTI_ROLL_TQ_DIFF_LIM
+AntiRollTqDistbn                                   -> S_SAFE_OUTPUT_ACTIVE_SUSPENSION_TORQUE_DISTRIBUTION_LIM
+AntiRollTqDynLimFrtAxle                            -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ANTI_ROLL_TORQUE_DYNAMIC_LIMITATION_FRONT
+AntiRollTqDynLimFrtAxleV                           -> S_ACTIVE_SUSPENSION_CONTROL_STATE_DYNAMIC_TORQUE_LIMIT_FRONT_QF
+AntiRollTqDynLimRearAxle                           -> S_ACTIVE_SUSPENSION_CONTROL_STATE_ANTI_ROLL_TORQUE_DYNAMIC_LIMITATION_REAR
+AntiRollTqDynLimRearAxleV                          -> S_ACTIVE_SUSPENSION_CONTROL_STATE_DYNAMIC_TORQUE_LIMIT_REAR_QF
+BrakPedalDisp                                      -> S_BRAKE_PEDAL_POSITION
+BrakPedalDispV                                     -> S_ACT_BRKPEDL_VALID
+BrakePedalApplied                                  -> S_DRIVING_DIRECTION_DETECTION_BRAKE_LIGHT_SWITCH
+BrakePedalAppliedV                                 -> S_SWT_BRKLGT_VALID
+BrakeTorqueValid_FL                                -> S_ACT_FLHYDTQ_VALID
+BrakeTorqueValid_FR                                -> S_ACT_FRHYDTQ_VALID
+BrakeTorqueValid_RL                                -> S_ACT_RLHYDTQ_VALID
+BrakeTorqueValid_RR                                -> S_ACT_RRHYDTQ_VALID
+BrkActorMaxYawTorq                                 -> S_YAW_TORQUE_LIMIT_MAX
+BrkActorMinYawTorq                                 -> S_YAW_TORQUE_LIMIT_MIN
+BrkDltTrqCtrlAtvRqstFlg                            -> S_BRKLIMITATION_OUTPUT_TARGET_ACTUATOR_OVERLAY_STATE_MON
+CSTFctSwtSts                                       -> S_CUBIX_MODE_CST_ENA_FLG
+CarConfigurationParameter.TireSize                 -> S_CAR_CONFIGURATION_PARAMETER_TIRE_SIZE
+CarConfigurationParameter.VehicleVariant01         -> S_CAR_CONFIGURATION_PARAMETER_VEHICLE_VARIANT01
+CarConfigurationParameter.VehicleVariant02         -> S_CAR_CONFIGURATION_PARAMETER_VEHICLE_VARIANT02
+CarConfigurationParameter.VehicleVariant03         -> S_CAR_CONFIGURATION_PARAMETER_VEHICLE_VARIANT03
+CarConfigurationParameter.VehicleVariant04         -> S_CAR_CONFIGURATION_PARAMETER_VEHICLE_VARIANT04
+CdcActrStsFb                                       -> S_CDC_ACT_STATE
+CdcActvRqst                                        -> S_CDCREQUEST_ACTIVATION_MON
+CdcBaseCurrent_FL                                  -> S_CDC_CDC_BASE_CURRENT_FRONT_LEFT
+CdcBaseCurrent_FR                                  -> S_CDC_CDC_BASE_CURRENT_FRONT_RIGHT
+CdcBaseCurrent_RL                                  -> S_CDC_CDC_BASE_CURRENT_REAR_LEFT
+CdcBaseCurrent_RR                                  -> S_CDC_CDC_BASE_CURRENT_REAR_RIGHT
+CdcCurrentMaxRqst_FL                               -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_FLMAX
+CdcCurrentMaxRqst_FR                               -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_FRMAX
+CdcCurrentMaxRqst_RL                               -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_RLMAX
+CdcCurrentMaxRqst_RR                               -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_RRMAX
+CdcCurrentMinRqst_FL                               -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_FLMIN
+CdcCurrentMinRqst_FR                               -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_FRMIN
+CdcCurrentMinRqst_RL                               -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_RLMIN
+CdcCurrentMinRqst_RR                               -> S_CDCREQUEST_CDCTAR_CURRENT_REQ_RRMIN
+CmftblStartSwStRqst                                -> S_CUBIX_MODE_COMFORT_START_FLG
+CmpTrnActvtnSwRqst                                 -> S_COMPASSTURN_SWITCH_REQUEST
+CmpTrnSwStRqst                                     -> S_COMPASSTURN_MODE_SWITCH
+CmpsUTrnLckWhl                                     -> S_COMPASSTURN_CLOCKED_WHEEL_SELECTED
+CmpsUTrnStrSts                                     -> S_TANK_CMPS_TURN_QM_STR_STS
+CrabWalkingFbSts                                   -> S_CRABWALK_STATE
+CrabWalkingFlt                                     -> S_CRABWALK_FAULT
+CrbRwSwStRqst                                      -> S_CRABWALK_SWITCH_REQUEST
+DBRegenTrqFrntAxle                                 -> S_DRIVER_REQUEST_REGEN_TORQUE_FRONT
+DBRegenTrqReAxle                                   -> S_DRIVER_REQUEST_REGEN_TORQUE_REAR
+DDAjrSwAtv                                         -> S_DOOR_AJAR_SWITCH_FL_STATE
+DecelBrkActrRqstSts                                -> S_ACTUATOR_STATE_FEEDBACK_BRAKE_DECEL_ACTUATOR_STS_FB
+DecelBrkTrqAtvRqstFlg                              -> S_BRKLIMITATION_OUTPUT_TARGET_ACTUATOR_DECEL_STATE_MON
+DiffLockCtrlSts                                    -> S_DIFFERENCE_LOCK_STATUS_DIFFERENCE_LOCK_CONTROL_STATUS
+DiffLockWrkSts_FD                                  -> S_DIFFER_LOCK_STATE
+DrRqdFrntShftBrkTorq                               -> S_DRIVER_REQUEST_BRAKE_TORQUE_FRONT
+DrRqdRearShftBrkTorq                               -> S_DRIVER_REQUEST_BRAKE_TORQUE_REAR
+DrSbltAtc                                          -> S_DRIVER_SEATBELT_STATE
+DriftCtrlActualStatus                              -> S_CUBIX_STATE_SAFE_VMCDRIFT_FLG
+DrvActrStsFb                                       -> S_DRIVE_ACTUAL_STATE
+DrvActrStsFbV                                      -> S_ACT_DRVSTATE_VALID
+ECASLtFntRealH                                     -> S_AIR_SPRING_ACTUAL_HEIGHT_FRONT_LEFT
+ECASLtRrRealH                                      -> S_AIR_SPRING_ACTUAL_HEIGHT_REAR_RIGHT
+ECASLtRrtRealH                                     -> S_AIR_SPRING_ACTUAL_HEIGHT_REAR_LEFT
+ECASRtFntRealH                                     -> S_AIR_SPRING_ACTUAL_HEIGHT_FRONT_RIGHT
+EPBSysSwRq                                         -> S_EPB_STATE_DRIVER_REQUEST
+ESPMCBrPressureV_FD                                -> S_ACT_MCP_VALID
+ESPMCBrPressure_FD                                 -> S_DRIVING_DIRECTION_DETECTION_MASTER_CYLINDER_PRESSURE
+EjetnStaSwStRqst                                   -> S_CUBIX_MODE_LAUCH_CONTROL_FLG
+ElecPrkBrkStat_FD                                  -> S_EPB_STATE_ACTUAL
+ElecPrkBrkStsRqst                                  -> S_SAFE_EPB_TARGET_STATE
+FrntAxleTarDrvModeRqst                             -> S_SAFE_DRIVE_TARGET_AXLE_FRONT
+FrntAxleTrqDiff                                    -> S_SAFE_OUTPUT_DRIVE_LEFT_RIGHT_TORQUE_DIFFERENCE_FRONT_AXLE
+FrntLeDrvMotorIncTorqRqst                          -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_FRONT_LEFT
+FrntLeDrvMotorIncTorqRqstVal                       -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_VAL_FRONT_LEFT
+FrntLeDrvMotorRdcTorqRqst                          -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_FRONT_LEFT
+FrntLeDrvMotorRdcTorqRqstVal                       -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_VAL_FRONT_LEFT
+FrntLeMotDrRqstdTorq                               -> S_FRONTLEFTMOTOR_DRIVERREQUEST_TORQUE
+FrntLeMotDrRqstdTorqV                              -> S_REQ_ORGDRVFLTQ_VALID
+FrntRiDrvMotorRdcTorqRqst                          -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_FRONT_RIGHT
+FrntRiDrvMotorRdcTorqRqstVal                       -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_VAL_FRONT_RIGHT
+FrntRiDrvMotorncTorqRqst                           -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_FRONT_RIGHT
+FrntRiDrvMotorncTorqRqstVal                        -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_VAL_FRONT_RIGHT
+FrntRiMotDrRqstdTorq                               -> S_FRONTRIGHTMOTOR_DRIVERREQUEST_TORQUE
+FrntRiMotDrRqstdTorqV                              -> S_REQ_ORGDRVFRTQ_VALID
+HMIDriftControlActivationRequest                   -> S_CUBIX_MODE_DRIFT_CONTROL_SWITCH
+HWAAngSpd                                          -> S_HAND_WHEEL_ANGLE_SPEED_ACTUAL
+HWAAngSpdV                                         -> S_ACT_SWAANGVEL_VALID
+HWACtrlRqst                                        -> S_FWS_TARGET_DRIVER_STEER_TORQUE_STATE
+HWAOvlyTqDmd                                       -> S_FWS_TARGET_DRIVER_STEER_TORQUE
+HWASts                                             -> S_FWS_DRIVER_STEER_TORQUE_ACT_STATE
+HdOpenIndOn                                        -> S_HOOD_OPEN_STATE
+HzrdLgtSwAtvRqst                                   -> S_HAZARD_LIGHT_REQUEST
+LSDAjrSwAtv                                        -> S_DOOR_AJAR_SWITCH_RL_STATE
+LtFntWhlBstFlg                                     -> S_TIRE_BURST_FLAG_FRONT_LEFT
+LtFntWhlGrndVlctyV_FD                              -> S_ACT_FLWHLSPD_VALID
+LtFntWhlGrndVlcty_FD                               -> S_WHEEL_SPEED_FL
+LtFntWhlRotStaWhlDstncPlsCnt_FD                    -> S_WHEEL_PULSE_FL
+LtFntWhlRotStaWhlDstncV_FD                         -> S_ACT_FLWHLPLS_VALID
+LtFntWhldDirec_FD                                  -> S_WHEEL_DIRECTION_WHEEL_DIRECTION_FRONT_LEFT
+LtRrWhlGrndVlctyV_FD                               -> S_ACT_RLWHLSPD_VALID
+LtRrWhlGrndVlcty_FD                                -> S_WHEEL_SPEED_RL
+LtRrWhlRotStaWhlDstncPlsCnt_FD                     -> S_WHEEL_PULSE_RL
+LtRrWhlRotStaWhlDstncV_FD                          -> S_ACT_RLWHLPLS_VALID
+LtRrWhldDirec_FD                                   -> S_WHEEL_DIRECTION_WHEEL_DIRECTION_REAR_LEFT
+LtRrtWhlBstFlg                                     -> S_TIRE_BURST_FLAG_REAR_LEFT
+MCU2DrvMtrDMCTargtTrq_FD                           -> S_BRK_DRIVE_CONTROL_DTCSREAR_AXLE_TORQUE_LIMITATION
+MCU2DrvMtrDMCTrqIncTarSpd_FD                       -> S_BRK_DRIVE_CONTROL_DTCSPEED_LIMIT_FRNT_RI
+MCU2DrvMtrDMCTrqRdcTarSpd_FD                       -> S_BRK_DRIVE_CONTROL_TCSPEED_LIMIT_FRNT_RI
+MCU2MtrTorqMaxLitVal_FD                            -> S_MOTORFRONTRIGHT_MAX_TORQUE
+MCU2MtrTorqMinLitVal_FD                            -> S_MOTORFRONTRIGHT_MIN_TORQUE
+MCU2TMActSpd                                       -> S_AWD_SPD_ACTUAL_TVACTUAL_FRONT_RIGHT_MOTOR_RPMVALUE
+MCU2TMActSpdV                                      -> S_ACT_FRMOTSPD_VALID
+MCU2TMActTorq                                      -> S_DRIVE_ACTUAL_WHEEL_TORQUE_FR
+MCU2TMActTorqV                                     -> S_ACT_FRMOTTQ_VALID
+MCU2TorqRqst_FD                                    -> S_AWD_DRIVER_REQUEST_VCUACTUAL_TORQUE_REQUEST_FRONT_RIGHT
+MCU3DrvMtrDMCTrqIncTarSpd_FD                       -> S_BRK_DRIVE_CONTROL_DTCSPEED_LIMIT_RE_LE
+MCU3DrvMtrDMCTrqRdcTarSpd_FD                       -> S_BRK_DRIVE_CONTROL_TCSPEED_LIMIT_RE_LE
+MCU3MtrTorqMaxLitVal_FD                            -> S_MOTORREARLEFT_MAX_TORQUE
+MCU3MtrTorqMinLitVal_FD                            -> S_MOTORREARLEFT_MIN_TORQUE
+MCU3TMActSpd                                       -> S_AWD_SPD_ACTUAL_TVACTUAL_REAR_LEFT_MOTOR_RPMVALUE
+MCU3TMActSpdV                                      -> S_ACT_RLMOTSPD_VALID
+MCU3TMActTorq                                      -> S_DRIVE_ACTUAL_WHEEL_TORQUE_RL
+MCU3TMActTorqV                                     -> S_ACT_RLMOTTQ_VALID
+MCU3TorqRqst_FD                                    -> S_AWD_DRIVER_REQUEST_VCUACTUAL_TORQUE_REQUEST_REAR_LEFT
+MCU4DrvMtrDMCTrqIncTarSpd_FD                       -> S_BRK_DRIVE_CONTROL_DTCSPEED_LIMIT_RE_RI
+MCU4DrvMtrDMCTrqRdcTarSpd_FD                       -> S_BRK_DRIVE_CONTROL_TCSPEED_LIMIT_RE_RI
+MCU4MtrTorqMaxLitVal_FD                            -> S_MOTORREARRIGHT_MAX_TORQUE
+MCU4MtrTorqMinLitVal_FD                            -> S_MOTORREARRIGHT_MIN_TORQUE
+MCU4TMActSpd                                       -> S_AWD_SPD_ACTUAL_TVACTUAL_REAR_RIGHT_MOTOR_RPMVALUE
+MCU4TMActSpdV                                      -> S_ACT_RRMOTSPD_VALID
+MCU4TMActTorq                                      -> S_DRIVE_ACTUAL_WHEEL_TORQUE_RR
+MCU4TMActTorqV                                     -> S_ACT_RRMOTTQ_VALID
+MCU4TorqRqst_FD                                    -> S_AWD_DRIVER_REQUEST_VCUACTUAL_TORQUE_REQUEST_REAR_RIGHT
+MaxBrkTq_FL                                        -> S_MAX_ALLOWED_BRAKE_TORQUE_FL
+MaxBrkTq_FR                                        -> S_MAX_ALLOWED_BRAKE_TORQUE_FR
+MaxBrkTq_RL                                        -> S_MAX_ALLOWED_BRAKE_TORQUE_RL
+MaxBrkTq_RR                                        -> S_MAX_ALLOWED_BRAKE_TORQUE_RR
+NVMWriteCVData01                                   -> S_NVMWRITE_CVDATA01
+NVMWriteCVData02                                   -> S_NVMWRITE_CVDATA02
+NVMWriteCVData03                                   -> S_NVMWRITE_CVDATA03
+NVMWriteCVData04                                   -> S_NVMWRITE_CVDATA04
+OverlayBrkActrRqstSts                              -> S_ACTUATOR_STATE_FEEDBACK_BRAKE_OVERLAY_ACTUATOR_STS_FB
+PDAjrSwAtv                                         -> S_DOOR_AJAR_SWITCH_FR_STATE
+PrDrvMtrDMCTargtTrq_FD                             -> S_BRK_DRIVE_CONTROL_DTCSFRONT_AXLE_TORQUE_LIMITATION
+PrDrvMtrDMCTrqIncTarSpd_FD                         -> S_BRK_DRIVE_CONTROL_DTCSPEED_LIMIT_FRNT_LE
+PrDrvMtrDMCTrqRdcTarSpd_FD                         -> S_BRK_DRIVE_CONTROL_TCSPEED_LIMIT_FRNT_LE
+PrDrvMtrSpdToHCU_FD                                -> S_AWD_SPD_ACTUAL_FRONT_AXLE
+PrDrvMtrSpdVHCU_FD                                 -> S_ACT_FRTMOTSPD_VALID
+PrDrvMtrTorqMaxLitVal_FD                           -> S_MOTORFRONTLEFT_MAX_TORQUE
+PrDrvMtrTorqMinLitVal_FD                           -> S_MOTORFRONTLEFT_MIN_TORQUE
+PrDrvShftDrRqstdTorqDff_FD                         -> S_REARAXLE_DRIVERREQUEST_TORQUE
+PrDrvShftDrRqstdTorqVDff_FD                        -> S_REQ_ORGDRVFRTTQ_VALID
+PrDrvShftIncTorqRqstVal_FD                         -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_VAL_FRONT_AXLE
+PrDrvShftIncTorqRqst_FD                            -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_FRONT_AXLE
+PrDrvShftMaxDrvTorqDff_FD                          -> S_AWD_TORQUE_POTENTIAL_HYBRID_FRONT_AXLE_TORQUE_MAX_LIMITED_VALUE
+PrDrvShftMaxDrvTorqVDff_FD                         -> S_AWD_TORQUE_POTENTIAL_HYBRID_FRONT_AXLE_TORQUE_MAX_LIMITED_VALUE_VALIDITY
+PrDrvShftRdcTorqRqstVal_FD                         -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_VAL_FRONT_AXLE
+PrDrvShftRdcTorqRqst_FD                            -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_FRONT_AXLE
+PrDrvShftTorqV_FD                                  -> S_ACT_FRTMOTTQ_VALID
+PrDrvShftTorq_FD                                   -> S_DRIVE_ACTUAL_WHEEL_TORQUE_FRONT_AXLE
+RSDAjrSwAtv                                        -> S_DOOR_AJAR_SWITCH_RR_STATE
+RWAAngOffsRqst                                     -> S_SAFE_FWS_TARGET_RELATIVE_WHEEL_ANGLE
+RWAAngOffsRqstValid                                -> S_FRONT_STEER_SB_WREQUEST_TARGET_ANGLE_RELATIVE_VALID
+RWACtrlRqst                                        -> S_SAFE_FWS_TARGET_ACTUATOR_STATE
+RWASts                                             -> S_FRONT_STEER_SB_WSTATE_ACTUAL_STATE
+RWSActAng                                          -> S_ROAD_WHEEL_ANGLE_REAR_AXLE_AVERAGE
+RWSActAngV                                         -> S_ACT_RDWHLANG_VALID
+RWSActrCtrlMod                                     -> S_ADAS_REQUEST_STEER_REAR_ACTUATOR_STATE
+RWSActrLckEnable                                   -> S_ADAS_REQUEST_RWSLCK_ENABLE
+RWSActrSts                                         -> S_REAR_STEER_ACTUAL_STATE
+RWSActrStsV                                        -> S_ACT_RWSSTATE_VALID
+RWSAngADASCtrlRspSts                               -> S_CUBIX_STATE_SAFE_RWSCTRL_STS_FB_BY_ADAS
+RWSAngCtrlAvailSts                                 -> S_CUBIX_STATE_SAFE_RWSCTRL_AVAIL_STS_TO_ADAS
+RWSAngRqst                                         -> S_ADAS_REQUEST_RWSANG_REQ
+RWSAngRqstEnable                                   -> S_ADAS_REQUEST_RWSENABLE
+RWSAngRqstV                                        -> S_ADAS_RWSANGREQ_VALID
+RWSMaxAng                                          -> S_STEER_REAR_ACTUATOR_LIMITATION_MAX_ANGLE
+RWSMaxAngV                                         -> S_STEER_REAR_ACTUATOR_LIMITATION_MAX_ANGLE_QUALIFIER
+RWSMaxAngVel                                       -> S_STEER_REAR_ACTUATOR_LIMITATION_MAX_ANGLE_VELOCITY
+RWSMaxAngVelV                                      -> S_STEER_REAR_ACTUATOR_LIMITATION_MAX_ANGLE_VELOCITY_QUALIFIER
+ReAxleTarDrvModeRqst                               -> S_SAFE_DRIVE_TARGET_CONTROL_MODE_Front\Rear\FL\FR\RL\RR
+ReAxleTrqDiff                                      -> S_SAFE_OUTPUT_DRIVE_LEFT_RIGHT_TORQUE_DIFFERENCE_REAR_AXLE
+ReLeDrMotorIncTorqRqst                             -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_REAR_LEFT
+ReLeDrMotorIncTorqRqstVal                          -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_VAL_REAR_LEFT
+ReLeDrvMotorRdcTorqRqst                            -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_REAR_LEFT
+ReLeDrvMotorRdcTorqRqstVal                         -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_VAL_REAR_LEFT
+ReLeMotDrRqstdTorq                                 -> S_REARLEFTMOTOR_DRIVERREQUEST_TORQUE
+ReLeMotDrRqstdTorqV                                -> S_REQ_ORGDRVRLTQ_VALID
+ReRiDrvMotorIncTorqRqst                            -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_REAR_RIGHT
+ReRiDrvMotorIncTorqRqstVal                         -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_VAL_REAR_RIGHT
+ReRiDrvMotorRdcTorqRqst                            -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_REAR_RIGHT
+ReRiDrvMotorRdcTorqRqstVal                         -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_VAL_REAR_RIGHT
+ReRiMotDrRqstdTorq                                 -> S_REARRIGHTMOTOR_DRIVERREQUEST_TORQUE
+ReRiMotDrRqstdTorqV                                -> S_REQ_ORGDRVRRTQ_VALID
+ReSteerActvnReq                                    -> S_SAFE_RWS_TARGET_ACTUATOR_STATE
+ReSteerTarAng                                      -> S_SAFE_RWS_TARGET_WHEEL_ANGLE
+ReSteerTarAngV                                     -> S_RWSLIMITATION_OUTPUT_TARGET_REAR_WHEEL_ANGLE_LIM_VALID
+RrFntWhlRotStaWhlDstncPlsCnt_FD                    -> S_WHEEL_PULSE_FR
+RrFntWhlRotStaWhlDstncV_FD                         -> S_ACT_FRWHLPLS_VALID
+RrFntWhldDirec_FD                                  -> S_WHEEL_DIRECTION_WHEEL_DIRECTION_FRONT_RIGHT
+RtFntWhlBstFlg                                     -> S_TIRE_BURST_FLAG_FRONT_RIGHT
+RtFntWhlGrndVlctyV_FD                              -> S_ACT_FRWHLSPD_VALID
+RtFntWhlGrndVlcty_FD                               -> S_WHEEL_SPEED_FR
+RtRrWhlGrndVlctyV_FD                               -> S_ACT_RRWHLSPD_VALID
+RtRrWhlGrndVlcty_FD                                -> S_WHEEL_SPEED_RR
+RtRrWhlRotStaWhlDstncPlsCnt_FD                     -> S_WHEEL_PULSE_RR
+RtRrWhlRotStaWhlDstncV_FD                          -> S_ACT_RRWHLPLS_VALID
+RtRrWhldDirec_FD                                   -> S_WHEEL_DIRECTION_WHEEL_DIRECTION_REAR_RIGHT
+RtRrtWhlBstFlg                                     -> S_TIRE_BURST_FLAG_REAR_RIGHT
+SABBFbSts                                          -> S_CUBIX_STATE_SAFE_VMCSABBFLG
+SBW_DegradedSts                                    -> S_SBWDEGRADED_STS_SBWDEGRADED_STS
+SBW_DegradedSts_1                                  -> S_SBWDEGRADED_STS_SBWDEGRADED_STS1
+SBW_DegradedSts_2                                  -> S_SBWDEGRADED_STS_SBWDEGRADED_STS2
+SBW_DegradedSts_3                                  -> S_SBWDEGRADED_STS_SBWDEGRADED_STS3
+SUCUVlvActuCrntFL                                  -> S_CDC_CDC_ACTUAL_CURRENT_FRONT_LEFT
+SUCUVlvActuCrntFR                                  -> S_CDC_CDC_ACTUAL_CURRENT_FRONT_RIGHT
+SUCUVlvActuCrntRL                                  -> S_CDC_CDC_ACTUAL_CURRENT_REAR_LEFT
+SUCUVlvActuCrntRR                                  -> S_CDC_CDC_ACTUAL_CURRENT_REAR_RIGHT
+SUCUWhlAccSnsrFL                                   -> S_SUSPENSION_ACTUALL_WHEELVERTICAL_ACCELERATION_FL
+SUCUWhlAccSnsrFR                                   -> S_SUSPENSION_ACTUALL_WHEELVERTICAL_ACCELERATION_FR
+SUCUWhlAccSnsrRL                                   -> S_SUSPENSION_ACTUALL_WHEELVERTICAL_ACCELERATION_RL
+SUCUWhlAccSnsrRR                                   -> S_SUSPENSION_ACTUALL_WHEELVERTICAL_ACCELERATION_RR
+SbwCFactor                                         -> S_ROAD_WHEEL_ANGLE_FRONT_AXLE_C_FACTOR
+SbwCFactortValid                                   -> S_ROAD_WHEEL_ANGLE_FRONT_AXLE_C_FACTOR_VALID
+SbwMaxAllowPinAngOffValue                          -> S_FRONT_STEER_SB_WSTATE_MAX_RELATIVE_PIN_ANG
+SbwMaxAllowPinAngOffValueValid                     -> S_FWS_MAXRELPNONANG_VALID
+SbwMaxPinAngOffVelcty                              -> S_FRONT_STEER_SB_WSTATE_MAX_RELATIVE_PIN_ANG_VELOCITY
+SbwMaxPinAngOffVelctyValid                         -> S_FWS_MAXRELPNONANGVEL_VALID
+SbwPinAng                                          -> S_ROAD_WHEEL_ANGLE_FRONT_AXLE_PINION_ANGLE
+SbwPinAngCompOffset                                -> S_ROAD_WHEEL_ANGLE_FRONT_AXLE_PINION_ANGLE_COMP_OFFSET
+SbwPinAngCompOffsetValid                           -> S_FWS_PNONANGOFFST_VALID
+SbwPinAngValidity                                  -> S_FWS_PNONANG_VALID
+ShiftGearCtrllerInpSngl_FD                         -> S_GEAR_POSITION_DRIVER_REQUEST
+StrWhAng                                           -> S_REAR_WHEEL_ANGLE_ACTUAL
+StrWhAngV                                          -> S_ACT_SWAANG_VALID
+StrWhAngV_1                                        -> S_ACT_SWAANGSEC_VALID
+StrWhAng_1                                         -> S_STEERING_WHEEL_ANGLE_ANGLE_BACKUP
+SuspStiffFrntLe                                    -> S_AIR_SPRING_AIRSPRING_STIFFNESS_FRONT_LEFT
+SuspStiffFrntRi                                    -> S_AIR_SPRING_AIRSPRING_STIFFNESS_FRONT_RIGHT
+SuspStiffReLe                                      -> S_AIR_SPRING_AIRSPRING_STIFFNESS_REAR_LEFT
+SuspStiffReRi                                      -> S_AIR_SPRING_AIRSPRING_STIFFNESS_REAR_RIGHT
+TCS_BrkAtv_FL                                      -> S_TRACTION_CONTROL_BRAKE_ACTIVE_FL
+TCS_BrkAtv_FR                                      -> S_TRACTION_CONTROL_BRAKE_ACTIVE_FR
+TCS_BrkAtv_RL                                      -> S_TRACTION_CONTROL_BRAKE_ACTIVE_RL
+TCS_BrkAtv_RR                                      -> S_TRACTION_CONTROL_BRAKE_ACTIVE_RR
+TCSysAtv_FD                                        -> S_TC_INTERVENTION_STATUS
+TDAjrSwAtv                                         -> S_TRAIL_DOOR_AJAR_SWITCH_STATE
+TMActSpd                                           -> S_AWD_SPD_ACTUAL_TVACTUAL_FRONT_LEFT_MOTOR_RPMVALUE
+TMActSpdV                                          -> S_ACT_FLMOTSPD_VALID
+TMActTorq                                          -> S_DRIVE_ACTUAL_WHEEL_TORQUE_FL
+TMActTorqV                                         -> S_ACT_FLMOTTQ_VALID
+TMTorqRqst_FD                                      -> S_AWD_DRIVER_REQUEST_VCUACTUAL_TORQUE_REQUEST_FRONT_LEFT
+TankCmpsUTrnAccSts                                 -> S_TANKCOMPASS_TURN_ACC_PEDAL_PRECONDITION
+TankCmpsUTrnActRotaAng                             -> S_TANKTURN_ROTATION_AGNLE_ACTUAL
+TankCmpsUTrnActRotaspd                             -> S_TANKTURN_ROTATION_SPEED_ACTUAL
+TankCmpsUTrnAva                                    -> S_TANKCOMPASS_TURN_AVAILABLE
+TankCmpsUTrnDrBeltSts                              -> S_TANKCOMPASS_TURN_BELT_PRECONDITION
+TankCmpsUTrnGearSts                                -> S_TANKCOMPASS_TURN_GEAR_PRECONDITION
+TankCmpsUTrnQuitDspMsgRqst                         -> S_TANKCOMPASS_TURN_QUIT_DISPLAY
+TankCmpsUTrnRotaActDirct                           -> S_TANKTURN_ROTATION_DIRECTION_ACTUAL
+TankCmpsUTrnRotaAng                                -> S_COMPASSTURN_ROTATION_ANGLE_REQUEST
+TankCmpsUTrnRotaDirct                              -> S_COMPASSTURN_ROTATION_DIRECTION_REQUEST
+TankCmpsUTrnStaticSlpSts                           -> S_TANKCOMPASS_TURN_STATIC_SLOPE_PRECONDITION
+TankCmpsUTrnStrSts                                 -> S_TANKCOMPASS_TURN_STEER_PRECONDITION
+TankCmpsUTrnbrakEPBSts                             -> S_TANKCOMPASS_TURN_EPB_PRECONDITION
+TankUTrnActvtnSwRqst                               -> S_TANKTURN_SWITCH_REQUEST
+TankUTrnRotaMod                                    -> S_TANKTURN_ROTATION_MODE
+TankUTrnSwStRqst                                   -> S_TANKTURN_MODE_SWITCH
+TarAirSuspMode                                     -> S_SAFE_OUTPUT_AIR_SPRING_AIR_SPRING_CONTROL_MODE
+TarBrkTq_FL                                        -> S_BRKLIMITATION_OUTPUT_TARGET_BRAKE_TORQUE_LIM_FRONT_LEFT
+TarBrkTq_FR                                        -> S_BRKLIMITATION_OUTPUT_TARGET_BRAKE_TORQUE_LIM_FRONT_RIGHT
+TarBrkTq_RL                                        -> S_BRKLIMITATION_OUTPUT_TARGET_BRAKE_TORQUE_LIM_REAR_LEFT
+TarBrkTq_RR                                        -> S_BRKLIMITATION_OUTPUT_TARGET_BRAKE_TORQUE_LIM_REAR_RIGHT
+TarSlipRatLimit_FR                                 -> S_BRKLIMITATION_OUTPUT_TARGET_SLIP_RATE_LIM_FRONT_RIGHT
+TarSlipRatLimit_RL                                 -> S_BRKLIMITATION_OUTPUT_TARGET_SLIP_RATE_LIM_REAR_LEFT
+TarSlipRatLimit_RR                                 -> S_BRKLIMITATION_OUTPUT_TARGET_SLIP_RATE_LIM_REAR_RIGHT
+TarSlipRatlimit_FL                                 -> S_BRKLIMITATION_OUTPUT_TARGET_SLIP_RATE_LIM_FRONT_LEFT
+TarStfnLvlFrntLe                                   -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_FRONT_LEFT
+TarStfnLvlFrntRi                                   -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_FRONT_RIGHT
+TarStfnLvlReLe                                     -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_REAR_LEFT
+TarStfnLvlReRi                                     -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_LEVEL_REAR_RIGHT
+TarStfnReqFrntLe                                   -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_FRONT_LEFT
+TarStfnReqFrntRi                                   -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_FRONT_RIGHT
+TarStfnReqReLe                                     -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_REAR_LEFT
+TarStfnReqReRi                                     -> S_SAFE_OUTPUT_AIR_SPRING_TARGET_STIFFNESS_CONTROL_REQUEST_REAR_RIGHT
+TarVehSpdUpLim                                     -> S_SAFE_OUTPUT_DRIVE_TARGET_VEHICLE_SPEED_LIMITATION
+TarVehSpdUpLimCotrlRqst                            -> S_SAFE_OUTPUT_DRIVE_TARGET_VEH_SPD_UPPER_LIM_CONTROL_MODE
+ThScdDrvMtrSpdToHCU_FD                             -> S_AWD_SPD_ACTUAL_REAR_AXLE
+ThScdDrvMtrSpdVHCU_FD                              -> S_ACT_RRMOTSPD_VALID
+ThScdDrvShftDrRqstdTorqDffHCU_FD                   -> S_AWD_DRIVER_REQUEST_REAR_AXLE_DRIVER_REQUEST
+ThScdDrvShftDrRqstdTorqVDffHCU_FD                  -> S_REQ_ORGDRVRRTQ_VALID
+ThScdDrvShftIncTorqRqstVal_FD                      -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_VAL_REAR_AXLE
+ThScdDrvShftIncTorqRqst_FD                         -> S_BRK_DRIVE_CONTROL_INCREASE_TQ_RQST_REAR_AXLE
+ThScdDrvShftRdcTorqRqstVal_FD                      -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_VAL_REAR_AXLE
+ThScdDrvShftRdcTorqRqst_FD                         -> S_BRK_DRIVE_CONTROL_REDUCTION_TQ_RQST_REAR_AXLE
+ThScdDrvShftTorqV_FD                               -> S_ACT_RRMOTTQ_VALID
+ThScdDrvShftTorq_FD                                -> S_DRIVE_ACTUAL_WHEEL_TORQUE_REAR_AXLE
+TotTarDriTrqUpLim                                  -> S_SAFE_OUTPUT_DRIVE_TOTAL_TARGET_DRIVE_TORQUE_UP_LIMITATION
+TotTarDriTrqUpLimCotrlRqst                         -> S_SAFE_DRIVE_TARGET_TOTAL_DRIVE_TORQUE_UPPER_LIMIT_STATE
+TotTarRegTrq                                       -> S_SAFE_OUTPUT_DRIVE_TOTAL_TARGET_REGEN_TORQUE
+TotTarRegTrqCotrlRqst                              -> S_SAFE_OUTPUT_DRIVE_TOTAL_REGEN_TORQUE_CONTROL_MODE
+TypNestObstaBlcokVehTral                           -> S_OBSTACLE_DETECTED
+UltrlimtStrCtrlSwStRqst                            -> S_CUBIX_MODE_SABBENA_FLG
+VCUADASActvSts_1                                   -> S_ADAS_ACTIVE_STATE
+VMCARMFlg                                          -> S_CUBIX_STATE_SAFE_VMCARMFLG
+VMCATSFlg                                          -> S_CUBIX_STATE_SAFE_VMCATSFLG
+VMCCMSFlg                                          -> S_CMS_STATE
+VMCDACbFlg                                         -> S_CUBIX_STATE_SAFE_VMCDACB_FLG
+VMCDACsFlg                                         -> S_CUBIX_STATE_SAFE_VMCDACS_FLG
+VMCDrvTqDistbnActvnRqst                            -> S_SAFE_DRIVE_TARGET_TORQUE_DISTRIBUTION_STATE
+VMCHDCFlg                                          -> S_CUBIX_STATE_SAFE_VMCHDCFLG
+VMCLaunchStartFlg                                  -> S_CUBIX_STATE_SAFE_VMCSLAUNCH_START_FLG
+VMCMtCtrlModeFL_1st                                -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_FL
+VMCMtCtrlModeFR_2nd                                -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_FR
+VMCMtCtrlModeRL_3rd                                -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_RL
+VMCMtCtrlModeRR_4th                                -> S_SAFE_DRIVE_TARGET_WHEEL_CONTROL_STATE_RR
+VMCPGearRqst                                       -> S_SAFE_GEAR_TARGET_REQUEST
+VMCPreStabFlg                                      -> S_CUBIX_STATE_SAFE_VMCPRE_STAB_FLG
+VMCSoftStopSts                                     -> S_CUBIX_STATE_SAFE_VMCSOFT_STOP_FLG
+VMCSpdLimitFL_1st                                  -> S_SAFE_OUTPUT_DRIVE_TARGET_FRONT_LEFT_EMSPEED_LIMIT
+VMCSpdLimitFR_2nd                                  -> S_SAFE_OUTPUT_DRIVE_TARGET_FRONT_RIGHT_EMSPEED_LIMIT
+VMCSpdLimitFrnt                                    -> S_SAFE_OUTPUT_DRIVE_TARGET_FRONT_EMSPEED_LIMIT
+VMCSpdLimitRL_3rd                                  -> S_SAFE_OUTPUT_DRIVE_TARGET_REAR_LEFT_EMSPEED_LIMIT
+VMCSpdLimitRR_4th                                  -> S_SAFE_OUTPUT_DRIVE_TARGET_REAR_RIGHT_EMSPEED_LIMIT
+VMCSpdLimitRe                                      -> S_SAFE_OUTPUT_DRIVE_TARGET_REAR_EMSPEED_LIMIT
+VMCStartUpFlg                                      -> S_CUBIX_STATE_SAFE_VMCSTART_UP_FLG
+VMCTankCmpsUTrnSts                                 -> S_TANKTURN_STATE
+VMCTarDrvTqDistbn                                  -> S_SAFE_DRIVE_TARGET_TORQUE_DISTRIBUTION
+VMCTarDrvTqFL_1st                                  -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FL
+VMCTarDrvTqFR_2nd                                  -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FR
+VMCTarDrvTqFrnt                                    -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FRONT_AXLE
+VMCTarDrvTqRL_3rd                                  -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_RL
+VMCTarDrvTqRR_4th                                  -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_RR
+VMCTarDrvTqRe                                      -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_REAR_AXLE
+VMCTarSpdFL_1st                                    -> S_SAFE_TARGET_MOTOR_SPEED_FL
+VMCTarSpdFR_2nd                                    -> S_SAFE_TARGET_MOTOR_SPEED_FR
+VMCTarSpdFrnt                                      -> S_SAFE_TARGET_MOTOR_SPEED_FRONT_AXLE
+VMCTarSpdRL_3rd                                    -> S_SAFE_TARGET_MOTOR_SPEED_RL
+VMCTarSpdRR_4th                                    -> S_SAFE_TARGET_MOTOR_SPEED_RR
+VMCTarSpdRe                                        -> S_SAFE_TARGET_MOTOR_SPEED_REAR_AXLE
+VMCTyreBurstFlg                                    -> S_CUBIX_STATE_SAFE_VMCTYRE_BURST_FLG
+VMCVDCFlg                                          -> S_CUBIX_STATE_SAFE_VMCVDCFLG
+VMCWarmingLamp                                     -> S_CUBIX_STATE_SAFE_WARNING_LAMP_STATE
+VSEARMTrqVal                                       -> S_ESC_STATUS_ARMTORQUE
+VSEArmAtv                                          -> S_ESC_STATUS_ARMSTATUS
+VSEAtv_FD                                          -> S_ESC_INTERVENTION_STATUS
+VSEOuUsTrqVal                                      -> S_ESC_STATUS_ACTUAL_OVER_STEER_CORRECT_TORQUE
+VSESysCtrlModSts                                   -> S_ESC_STATUS_YSC_CONTROL_MODE
+VSESysOffSta_FD                                    -> S_ESC_STATUS_ESC_OFF_STATUS
+VecOptMod                                          -> S_CUBIX_MODE_POWER_MODE
+VehActGrStsESCV_FD                                 -> S_ACT_GEARLVR_VALID
+VehActGrStsESC_FD                                  -> S_GEAR_POSITION_ACTUAL
+VehDrvMod_FD                                       -> S_DRIVER_MODE
+VehModIORq                                         -> S_CUBIX_MODE_VEHICLE_MODE
+VehRdySts                                          -> S_VEHICLE_READY
+VehSpdAvgDrvnDir_ABS                               -> S_VEHICLE_VELOCITY_SAFE_VEHICLE_VELOCITY_DIR
+VehSpdAvgDrvnV_ABS                                 -> S_EXTVEHSPD_VALID
+VehSpdAvgDrvn_ABS                                  -> S_VEHICLE_SPEED
+VehStabEnhmntStat                                  -> S_ESC_STATUS_TCFAULT
+VehTargtDecelBrkTorq                               -> S_BRKLIMITATION_OUTPUT_TARGET_BRAKE_TORQUE_DECEL_SUM
+VmcDrvTrqCtrlActRqst                               -> S_SAFE_DRIVE_ACTUATOR_CONTROL_REQUEST_STATE
+VmcMCU12ShtdnRqst                                  -> S_SAFE_OUTPUT_DRIVE_TARGET_MCUDISABLE_TORQUE_FRONT_REQUEST
+VmcMCU34ShtdnRqst                                  -> S_SAFE_OUTPUT_DRIVE_TARGET_MCUDISABLE_TORQUE_REAR_REQUEST
+VmcMatinFntWhlStrZeroPosRqst                       -> S_FRONT_WHEEL_ANGLE_KEEP_ZERO_REQUEST
+VmcSpdLimCtrlActRqst                               -> S_SAFE_OUTPUT_DRIVE_VMCENGINE_SPEED_LIMITATION_REQUEST_FLAG
+VmcSts                                             -> S_CUBIX_STATE_SAFE_CUBIX_STATE
+VrtlAccPstnV_FD                                    -> S_ACT_VRTACCRPEDL_VALID
+VrtlAccPstn_FD                                     -> S_ACCELERATION_PEDAL_VIRTUAL_PEDAL_POSITION
+WhlActBrkTq_FL                                     -> S_BRAKE_ACTUAL_WHEEL_TORQUE_FL
+WhlActBrkTq_FR                                     -> S_BRAKE_ACTUAL_WHEEL_TORQUE_FR
+WhlActBrkTq_RL                                     -> S_BRAKE_ACTUAL_WHEEL_TORQUE_RL
+WhlActBrkTq_RR                                     -> S_BRAKE_ACTUAL_WHEEL_TORQUE_RR
+cubiXFrameworkSWVersion                            -> S_CUBIX_DIAGNOSE_FRAMEWORK_CUBIX_SOFTWARE_VERSION
+cubiXInfobaseSWVersion                             -> S_CUBIX_DIAGNOSE_INFO_CUBIX_SOFTWARE_VERSION
+cubiXSafetySWVersion                               -> S_CUBIX_DIAGNOSE_CUBIX_SOFTWARE_VERSION
+
+================================================================================
+成功替换的信号:
+================================================================================
+Sheet: Export               行号:    26 列号:     2
+  VMCTarDrvTqFrnt                                    -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_FRONT_AXLE
+Sheet: Export               行号:    27 列号:     2
+  VMCTarDrvTqRe                                      -> S_SAFE_DRIVE_TARGET_WHEEL_TORQUE_REAR_AXLE
+Sheet: Export               行号:    32 列号:     2
+  VMCTarSpdFrnt                                      -> S_SAFE_TARGET_MOTOR_SPEED_FRONT_AXLE
+Sheet: Export               行号:    33 列号:     2
+  VMCTarSpdRe                                        -> S_SAFE_TARGET_MOTOR_SPEED_REAR_AXLE
+Sheet: Export               行号:    35 列号:     2
+  VMCTarSpdRe                                        -> S_SAFE_TARGET_MOTOR_SPEED_REAR_AXLE
+
+================================================================================
+未找到映射的信号:
+================================================================================
+Sheet: Export               行号:     3 列号:    10
+  Image wiki='[CB:/displayDocument/1770624901073.png?task_id=17986912&artifact_id=51749183&version=1&history=false&notification=false]' alt='CB:/displayDocument/1770624901073.png?task_id=17986912&artifact_id=51749183&version=1&history=false&notification=false' style='border: 0px; max-width: 100%; object-fit: contain; cursor: pointer; padding: 0px 1px; color: rgb(65, 65, 65); font-family: sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;' (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  CSTFctSwtSts~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  ABSAtv~_FD~                                        (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  VSEAtv~_FD~                                        (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  VSEArmAtv~                                         (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  TCSysAtv~_FD~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  DragTorgCntAtv~_FD~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  PrDrvMtrTorqMinLitVal~_FD~                         (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  MCU2MtrTorqMinLitVal~_FD~                          (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  MCU3MtrTorqMinLitVal~_FD~                          (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  MCU4MtrTorqMinLitVal~_FD~                          (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  VCUADASActvSts~_1~                                 (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  BrakPedalDisp~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  BrakPedalDisp~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  VehSpdAvgDrvn~_ABS~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  ADASLongAcc~                                       (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  ADASLatAccel~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     4 列号:    10
+  StrWhAng~_1~                                       (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  ABSAtv~_FD~                                        (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  VSEAtv~_FD~                                        (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  VSEArmAtv~                                         (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  TCSysAtv~_FD~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  DragTorgCntAtv~_FD~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  BrakPedalDisp~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  PrDrvMtrTorqMinLitVal~_FD~                         (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  MCU2MtrTorqMinLitVal~_FD~                          (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  MCU3MtrTorqMinLitVal~_FD~                          (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  MCU4MtrTorqMinLitVal~_FD~                          (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  VehSpdAvgDrvn~_ABS~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  BrakPedalDisp~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     5 列号:    10
+  VCUADASActvSts~_1~                                 (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     6 列号:    10
+  CSTFctSwtSts~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     7 列号:    10
+  VehRdySts~                                         (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     7 列号:    10
+  CSTFctSwtSts~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     7 列号:    10
+  VehRdySts~                                         (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:     8 列号:    10
+  CSTFctSwtSts~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    10 列号:    10
+  CSTFctSwtSts~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    15 列号:    10
+  DrRqdFrntShftBrkTorq~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    15 列号:    10
+  DrRqdRearShftBrkTorq~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    16 列号:    10
+  TMTorqRqst~_FD~                                    (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    16 列号:    10
+  MCU2TorqRqst~_FD~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    16 列号:    10
+  MCU3TorqRqst~_FD~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    16 列号:    10
+  MCU4TorqRqst~_FD~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    17 列号:    10
+  WhlActBrkTq~_FL~                                   (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    17 列号:    10
+  WhlActBrkTq~_FR~                                   (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    17 列号:    10
+  WhlActBrkTq~_RL~                                   (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    17 列号:    10
+  WhlActBrkTq~_RR~                                   (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    18 列号:    10
+  PrDrvShftTorq~_FD~                                 (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    18 列号:    10
+  ThScdDrvShftTorq~_FD~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    18 列号:    10
+  TMActTorq~                                         (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    18 列号:    10
+  MCU2TMActTorq~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    18 列号:    10
+  MCU3TMActTorq~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    18 列号:    10
+  MCU4TMActTorq~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    19 列号:    10
+  Table dataStyle='color:rgb(30, 30, 30);text-decoration:none;border:0px;padding:12px 5px 11px;background:white;vertical-align:top;'_x000D_
+_x000D_
+|(width:36.2522%)signal name_x000D_
+|(width:16.4623%)0x0_x000D_
+|(width:19.7898%)0x1_x000D_
+|(width:27.4956%)0x2_x000D_
+_x000D_
+|(width:36.2522%)~{FrntAxleTarDrvModeRqst~ (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    19 列号:    10
+  ReAxleTarDrvModeRqst~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    19 列号:    10
+  VMCMtCtrlModeFL~_1st~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    19 列号:    10
+  VMCMtCtrlModeFR~_2nd~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    19 列号:    10
+  VMCMtCtrlModeRL~_3rd~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    19 列号:    10
+  VMCMtCtrlModeRR~_4th~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    20 列号:    10
+  Table style='border-collapse:collapse;border-spacing:1px;border:0px;background:rgb(229, 229, 229);empty-cells:show;max-width:100%;color:rgb(65, 65, 65);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;' dataStyle='color:rgb(30, 30, 30);text-decoration:none;border:1px dotted rgb(209, 209, 209);padding:12px 5px 11px;user-select:text;min-width:5px;background:white;vertical-align:top;'_x000D_
+_x000D_
+|(width:37.6699%)Signals_x000D_
+|(width:17.4757%)0x0_x000D_
+|(width:19.4175%)0x1_x000D_
+|(width:25.4369%)0x2_x000D_
+_x000D_
+|(width:37.6699%)~{FrntAxleTarDrvModeRqst~ (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    20 列号:    10
+  ReAxleTarDrvModeRqst~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    21 列号:    10
+  Table style='border-collapse:collapse;border-spacing:1px;border:0px;background:rgb(229, 229, 229);empty-cells:show;max-width:100%;color:rgb(65, 65, 65);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;'_x000D_
+_x000D_
+|signals_x000D_
+|0x0_x000D_
+|0x1_x000D_
+|0x2_x000D_
+_x000D_
+|~{%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)VMCMtCtrlModeFL~_1st%!~ (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    21 列号:    10
+  %%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)VMCMtCtrlModeFR~_2nd%!~ (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    21 列号:    10
+  %%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)VMCMtCtrlModeRL~_3rd%!~ (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    21 列号:    10
+  %%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(255, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)VMCMtCtrlModeRR~_4th%!~ (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    22 列号:    10
+  VMCTarDrvTqFrnt~                                   (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    22 列号:    10
+  VMCTarDrvTqRe~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    22 列号:    10
+  VMCTarDrvTqFL~_1st ~                               (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    22 列号:    10
+  VMCTarDrvTqFR~_2nd~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    22 列号:    10
+  VMCTarDrvTqRL~_3rd~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    22 列号:    10
+  VMCTarDrvTqRR~_4th~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    26 列号:    10
+  FrntAxleTarDrvModeRqst~                            (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    26 列号:    10
+  VMCTarDrvTqFrnt~                                   (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    26 列号:    10
+  VMCTarDrvTqFrnt~                                   (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    26 列号:    10
+  VMCTarDrvTqFrnt~                                   (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    26 列号:    10
+  Image wiki='[CB:/displayDocument/1773898412607.png?task_id=18015088&artifact_id=52859419&version=1&history=false&notification=false]' alt='CB:/displayDocument/1773898412607.png?task_id=18015088&artifact_id=52859419&version=1&history=false&notification=false' style='border: 0px; max-width: 100%; object-fit: contain; cursor: pointer; padding: 0px 1px;' (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    27 列号:    10
+  ReAxleTarDrvModeRqst~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    27 列号:    10
+  VMCTarDrvTqRe~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    27 列号:    10
+  VMCTarDrvTqRe~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCMtCtrlModeFL~_1st ~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCMtCtrlModeFR~_2nd~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCMtCtrlModeRL~_3rd~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCMtCtrlModeRR~_4th~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCTarDrvTqFL~_1st~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCTarDrvTqFR~_2nd~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCTarDrvTqRL~_3rd~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCTarDrvTqRR~_4th~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCTarDrvTqFL~_1st~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCTarDrvTqFR~_2nd~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCTarDrvTqRL~_3rd~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    29 列号:    10
+  VMCTarDrvTqRR~_4th~                                (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    32 列号:    10
+  FrntAxleTarDrvModeRqst~                            (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    32 列号:    10
+  VMCTarSpdFrnt~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    32 列号:    10
+  VMCTarSpdFrnt~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    32 列号:    10
+  VMCTarSpdFrnt~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    32 列号:    10
+  Image wiki='[CB:/displayDocument/1773898412607.png?task_id=18015088&artifact_id=52859419&version=1&history=false&notification=false]' alt='CB:/displayDocument/1773898412607.png?task_id=18015088&artifact_id=52859419&version=1&history=false&notification=false' style='border: 0px; max-width: 100%; object-fit: contain; cursor: pointer; padding: 0px 1px;' (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    33 列号:    10
+  ReAxleTarDrvModeRqst~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    33 列号:    10
+  VMCTarSpdRe~                                       (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    33 列号:    10
+  VMCTarSpdRe~                                       (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCMtCtrlModeFL~_1st ~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCMtCtrlModeFR~_2nd~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCMtCtrlModeRL~_3rd~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCMtCtrlModeRR~_4th ~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCTarSpdFL~_1st~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCTarSpdFR~_2nd~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCTarSpdRL~_3rd~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCTarSpdRR~_4th~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCTarSpdFL~_1st~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCTarSpdFR~_2nd~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCTarSpdRL~_3rd~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    35 列号:    10
+  VMCTarSpdRR~_4th~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    36 列号:    10
+  CdcActvRqst~                                       (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    36 列号:    10
+  CdcCurrentMaxRqst~_FL~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    36 列号:    10
+  CdcCurrentMaxRqst~_FR~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    36 列号:    10
+  CdcCurrentMaxRqst~_RL~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    36 列号:    10
+  CdcCurrentMaxRqst~_RR~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    36 列号:    10
+  CdcCurrentMinRqst~_FL~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    36 列号:    10
+  CdcCurrentMinRqst~_FR~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    36 列号:    10
+  CdcCurrentMinRqst~_RL~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    36 列号:    10
+  CdcCurrentMinRqst~_RR~                             (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  AirSuspTarHei~_FL~                                 (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  AirSuspTarHei~_FR~                                 (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  AirSuspTarHei~_RL~                                 (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  AirSuspTarHei~_RR~                                 (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  TarStfnLvlFrntLe~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  TarStfnLvlFrntRi~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  TarStfnLvlReLe~                                    (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  TarStfnLvlReRi~                                    (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  AirSpringHeiReq~_FL~                               (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  AirSpringHeiReq~_FR~                               (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  AirSpringHeiReq~_RL~                               (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  AirSpringHeiReq~_RR~                               (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  TarStfnReqFrntLe~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  TarStfnReqFrntRi~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  TarStfnReqReLe~                                    (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    37 列号:    10
+  TarStfnReqReRi~                                    (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    38 列号:    10
+  ActvSuspTarForce~_FL~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    38 列号:    10
+  ActvSuspTarForce~_FR~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    38 列号:    10
+  ActvSuspTarForce~_RL~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    38 列号:    10
+  ActvSuspTarForce~_RR~                              (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    38 列号:    10
+  ActvSuspActvRqst~                                  (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    42 列号:    10
+  VMCSoftStopSts~                                    (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    42 列号:    10
+  VMCSoftStopSts ~                                   (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    42 列号:    10
+  CSTFctSwtSts ~                                     (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    42 列号:    10
+  VMCSoftStopSts~                                    (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    42 列号:    10
+  CSTFctSwtSts~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    43 列号:    10
+  VMCSoftStopSts~                                    (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    43 列号:    10
+  CSTFctSwtSts~                                      (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    43 列号:    10
+  VMCSoftStopSts~                                    (未找到对应的Match_HSI_Signal)
+Sheet: Export               行号:    45 列号:    10
+  VMC System~                                        (未找到对应的Match_HSI_Signal)

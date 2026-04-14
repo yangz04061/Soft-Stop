@@ -1,0 +1,55 @@
+SIGNAL REPLACEMENT MAPPING
+====================================================================================================
+
+Old: TMActTorq~
+New: S_DRIVE_ACTUAL_WHEEL_TORQUE_FL
+
+Old: MCU2TMActTorq~
+New: S_DRIVE_ACTUAL_WHEEL_TORQUE_FR
+
+Old: MCU3TMActTorq~
+New: S_DRIVE_ACTUAL_WHEEL_TORQUE_RL
+
+Old: MCU4TMActTorq~
+New: S_DRIVE_ACTUAL_WHEEL_TORQUE_RR
+
+
+====================================================================================================
+REPLACED DESCRIPTION:
+====================================================================================================
+%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(245, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)CST shall determine actual residual eletric brake torque based on signals:%!
+
+~{PrDrvShftTorq~_FD~}
+
+* %%(color:rgb(30, 30, 30);text-decoration:none;) For 2 Motors: Front axle torque (before Diff)%!
+
+~{ThScdDrvShftTorq~_FD~}
+
+* %%(color:rgb(30, 30, 30);text-decoration:none;) For 2 Motors: Rear axle torque (before Diff)%!
+
+~{S_DRIVE_ACTUAL_WHEEL_TORQUE_FL}
+
+* %%(color:rgb(30, 30, 30);text-decoration:none;) For 4 Motors: Front left torque (before Diff)%!
+
+~{S_DRIVE_ACTUAL_WHEEL_TORQUE_FR}
+
+* %%(color:rgb(30, 30, 30);text-decoration:none;) For 4 Motors: Front right torque (before Diff)%!
+
+
+%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(245, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;float:none;display:inline !important;)~{S_DRIVE_ACTUAL_WHEEL_TORQUE_RL}%!
+
+* %%(color:rgb(30, 30, 30);text-decoration:none;margin-bottom:6px;margin-top:6px;) For 4 Motors: Rear left torque (before Diff)%!
+
+
+%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(245, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;float:none;display:inline !important;)~{S_DRIVE_ACTUAL_WHEEL_TORQUE_RR}%!
+
+* %%(color:rgb(30, 30, 30);text-decoration:none;margin-bottom:6px;margin-top:6px;) For 4 Motors: Rear right torque (before Diff)%!
+\\
+
+Note:
+
+when under D gear position~, negative value means actual %%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(245, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)residual eletric brake torque.%!
+
+
+%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(245, 255, 255);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none;)when under R gear position~, postive value means actual %!
+%%(color:rgb(30, 30, 30);font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:left;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;background-color:rgb(245, 255, 255);float:none;display:inline !important;)residual eletric brake torque (however there is no possibile of this E~-Brake under R gear).%!

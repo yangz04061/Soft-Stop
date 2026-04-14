@@ -1,0 +1,14 @@
+信号替换总结
+==================================================
+
+源文件: cubiX-SGMW - System Requirements.xlsx
+备份文件: cubiX-SGMW - System Requirements_backup_20260409_155312.xlsx
+
+成功替换: 143 项
+未找到:   18 项
+总计:     161 项
+
+建议:
+1. 检查Excel文件中含有'~'的信号是否为格式化或特殊标记
+2. 验证映射文件是否包含所有需要的信号
+3. 检查System Requirements中是否有其他需要替换的信号

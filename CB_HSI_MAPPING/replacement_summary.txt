@@ -1,0 +1,11 @@
+REPLACEMENT STATUS SUMMARY
+====================================================================================================
+
+Total rows: 44
+
+Fully replaced rows: 5
+Partially replaced rows: 0
+Not replaced rows: 39
+
+Successfully replaced signals: 17
+Unreplaced signals: 0
