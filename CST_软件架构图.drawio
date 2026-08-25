@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net" modified="2026-08-14T00:00:00.000Z" agent="GitHub Copilot" version="24.7.17">
+  <diagram id="cst-arch" name="CST Software Architecture">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="Comfortable Stop (CST) 软件架构图&#xa;基于 SGMW_VMC Comfortable Stop_舒适制动功能规范_master.docx 梳理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="620" y="20" width="960" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="vmc_outer" value="VMC - CST 功能软件" style="swimlane;rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;horizontal=0;startSize=36;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="760" height="770" as="geometry"/>
+        </mxCell>
+        <mxCell id="state" value="1. 状态机与开关记忆&#xa;Off / Standby / Active / Failure&#xa;记忆恢复 / HMI 状态同步" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="vmc_outer">
+          <mxGeometry x="30" y="50" width="320" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="arb" value="2. 激活 / 退出 / 仲裁管理&#xa;车速、踏板、坡度、档位、稳定性、ADAS、故障&#xa;判定 CST 是否允许激活或必须退出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="vmc_outer">
+          <mxGeometry x="390" y="50" width="340" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="ctrl" value="3. 舒适制动控制器&#xa;前馈 + 反馈 Pitch Control&#xa;输入: ADASLongAcc, ADASLatAccel, ADASIMUPitch, ADASPitchRateV&#xa;输出: 电制动扭矩 / 转速 / 悬架目标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="vmc_outer">
+          <mxGeometry x="150" y="220" width="460" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="handshake" value="4. 执行器握手与平顺切换&#xa;制动执行器 ramp-down / ramp-up&#xa;VCU coasting 接管&#xa;站停阶段切换到 speed control = 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="vmc_outer">
+          <mxGeometry x="150" y="390" width="460" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="dispatch" value="5. 执行器目标分发&#xa;Drive / Brake / CDC / Air Spring / Active Suspension" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="vmc_outer">
+          <mxGeometry x="150" y="550" width="460" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="monitor" value="6. 信号有效性与能力监控&#xa;Regen capability / actuator handshake / valid bits / degradation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="vmc_outer">
+          <mxGeometry x="150" y="680" width="460" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="hmi" value="HMI / Host ECU&#xa;开关请求 / 状态显示 / 记忆存储" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="310" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="veh" value="整车状态 / 底盘传感器&#xa;车速 / 踏板 / 档位 / 加速度 / Pitch / 有效位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="320" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="brake" value="制动执行器&#xa;机械制动握手 / 驾驶员制动扭矩恢复" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="320" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="adasesc" value="ESC / ADAS / 故障源&#xa;ABS/TCS/ADAS 激活&#xa;驱动系统降级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="860" width="310" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="vcu" value="VCU / E-Drive&#xa;电制动能力 / 实际需求扭矩反馈&#xa;双电机 + 四电机拓扑兼容" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="220" width="360" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="sucu" value="SUCU 悬架控制器&#xa;CDC / 空簧 / 主动悬架握手与反馈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="560" width="360" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend" value="接口说明&#xa;1. 图中采用 Word 原文中的真实信号名&#xa;2. Markdown 中的 VMCSoftStopFlg 对应 Word 中的 VMCSoftStopSts&#xa;3. AirSuspTarHei_* / TarStfnLvl* 在 Word 中细化为 AirSpringHeiReq_* / TarStfnReq*&#xa;4. CDC 电流请求在 Word 中细化为 CdcCurrentMaxRqst_xx / CdcCurrentMinRqst_xx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff;strokeColor=#999999;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="20" width="600" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="CSTFctSwtSts&#xa;memory restore request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.02" y="-2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_hmi_in" style="endArrow=block;html=1;rounded=0;strokeColor=#9673a6;" edge="1" parent="1" source="hmi" target="state">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="210" as="targetPoint"/>
+            <mxPoint x="380" y="210" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" value="VMCSoftStopSts&#xa;state sync to HMI / Host NVRAM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.03" y="2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_hmi_out" style="endArrow=block;html=1;rounded=0;strokeColor=#9673a6;" edge="1" parent="1" source="state" target="hmi">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" value="VehSpdAvgDrvn_ABS&#xa;BrakPedalDisp&#xa;pedal rate (derived)&#xa;AccActPos_FD / AccActPosV_FD&#xa;VehActGrStsESC_FD&#xa;ADASLongAcc / V&#xa;ADASLatAccel / V&#xa;ADASIMUPitch / ADASPitchRateV" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.02" y="-2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_veh_in" style="endArrow=block;html=1;rounded=0;strokeColor=#82b366;" edge="1" parent="1" source="veh" target="arb">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" value="ABSAtv_FD&#xa;TCSysAtv_FD&#xa;VCUADASactvSts&#xa;DrvActrStsFb" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.02" y="-2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_adas_in" style="endArrow=block;html=1;rounded=0;strokeColor=#666666;" edge="1" parent="1" source="adasesc" target="monitor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" value="DrRqdFrntShftBrkTorq&#xa;DrRqdRearShftBrkTorq&#xa;DecelBrkActrRqstSts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.02" y="-2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_brake_fb" style="endArrow=block;html=1;rounded=0;strokeColor=#b85450;" edge="1" parent="1" source="brake" target="handshake">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" value="DecelBrkTrqAtvRqstFlg&#xa;VehTargtDecelBrkTorq" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.02" y="2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_brake_cmd" style="endArrow=block;html=1;rounded=0;strokeColor=#b85450;" edge="1" parent="1" source="handshake" target="brake">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" value="Regen capability&#xa;PrDrvMtrTorqMinLitVal_FD&#xa;MCU2MtrTorqMinLitVal_FD&#xa;MCU3MtrTorqMinLitVal_FD&#xa;MCU4MtrTorqMinLitVal_FD&#xa;actual torque feedback&#xa;TMTorqRqst_FD / MCU2/3/4TorqRqst_FD" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.01" y="-2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_vcu_fb" style="endArrow=block;html=1;rounded=0;strokeColor=#d79b00;" edge="1" parent="1" source="vcu" target="monitor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e8" value="双电机: FrntAxleTarDrvModeRqst, ReAxleTarDrvModeRqst, VMCTarDrvTqFrnt, VMCTarDrvTqRe, VMCTarSpdFrnt, VMCTarSpdRe&#xa;四电机: VMCMtCtrlModeFL_1st/FR_2nd/RL_3rd/RR_4th&#xa;VMCTarDrvTqFL_1st/FR_2nd/RL_3rd/RR_4th&#xa;VMCTarSpdFL_1st/FR_2nd/RL_3rd/RR_4th" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.01" y="2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_vcu_cmd" style="endArrow=block;html=1;rounded=0;strokeColor=#d79b00;" edge="1" parent="1" source="dispatch" target="vcu">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e9" value="CDC: CdcActrStsFb, SUCUVlvActuCrntFL/FR/RL/RR, CdcBaseCurrent_FL/FR/RL/RR&#xa;Air: AirSpringActrStsFb&#xa;Active: ActSuspActrSts, ActSuspCtrlOrigTargtDampForce_FL/FR/RL/RR, ActSuspActulDampForce_FL/FR/RL/RR" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.01" y="-2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_sucu_fb" style="endArrow=block;html=1;rounded=0;strokeColor=#6c8ebf;" edge="1" parent="1" source="sucu" target="monitor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e10" value="CDC: CdcActvRqst, CdcCurrentMaxRqst_xx, CdcCurrentMinRqst_xx&#xa;Air: AirSuspActvRqst, AirSpringHeiReq_FL/FR/RL/RR, TarStfnReqFrntLe/FrntRi/ReLe/ReRi&#xa;Active: ActvSuspActvRqst, ActvSuspTarForce_FL/FR/RL/RR" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="0.01" y="2" relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_sucu_cmd" style="endArrow=block;html=1;rounded=0;strokeColor=#6c8ebf;" edge="1" parent="1" source="dispatch" target="sucu">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_state_to_arb" style="endArrow=block;html=1;strokeColor=#d79b00;" edge="1" parent="vmc_outer" source="state" target="arb">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_arb_to_ctrl" style="endArrow=block;html=1;strokeColor=#d79b00;" edge="1" parent="vmc_outer" source="arb" target="ctrl">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_ctrl_to_handshake" style="endArrow=block;html=1;strokeColor=#d79b00;" edge="1" parent="vmc_outer" source="ctrl" target="handshake">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_handshake_to_dispatch" style="endArrow=block;html=1;strokeColor=#d79b00;" edge="1" parent="vmc_outer" source="handshake" target="dispatch">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_monitor_to_arb" style="endArrow=block;html=1;strokeColor=#d79b00;dashed=1;" edge="1" parent="vmc_outer" source="monitor" target="arb">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
